@@ -12,7 +12,7 @@ asnc(4)
         return 1;
     })
     .then((data) => {
-        console.log(sayi);
+        console.log(data);
         return data+6;
     })
     .then((data) => {
